@@ -1,84 +1,94 @@
 {
-    "todos" : [
-        {
-          "id": 1,
-          "title": "Complete homework",
-          "description": "Finish the math assignment and submit it by 5 PM.",
-          "category": "School",
-          "date_created": "2023-10-11T08:00:00",
-          "isCompleted": false
-        },
-        {
-          "id": 2,
-          "title": "Grocery shopping",
-          "description": "Buy vegetables, fruits, and milk from the supermarket.",
-          "category": "Errands",
-          "date_created": "2023-10-11T10:30:00",
-          "isCompleted": true
-        },
-        {
-          "id": 3,
-          "title": "Call grandma",
-          "description": "Check in on grandma and see how she's doing.",
-          "category": "Family",
-          "date_created": "2023-10-12T14:15:00",
-          "isCompleted": false
-        },
-        {
-          "id": 4,
-          "title": "Plan weekend trip",
-          "description": "Research and plan a weekend getaway to the mountains.",
-          "category": "Leisure",
-          "date_created": "2023-10-12T17:30:00",
-          "isCompleted": false
-        },
-        {
-          "id": 5,
-          "title": "Write blog post",
-          "description": "Start working on the new blog post about JavaScript frameworks.",
-          "category": "Work",
-          "date_created": "2023-10-13T09:45:00",
-          "isCompleted": false
-        },
-        {
-          "id": 6,
-          "title": "Exercise",
-          "description": "Go for a run in the park for 30 minutes.",
-          "category": "Health",
-          "date_created": "2023-10-13T16:00:00",
-          "isCompleted": true
-        },
-        {
-          "id": 7,
-          "title": "Read a book",
-          "description": "Continue reading 'The Great Gatsby' by F. Scott Fitzgerald.",
-          "category": "Leisure",
-          "date_created": "2023-10-14T11:20:00",
-          "isCompleted": false
-        },
-        {
-          "id": 8,
-          "title": "Pay bills",
-          "description": "Pay the monthly utility bills online.",
-          "category": "Finances",
-          "date_created": "2023-10-15T13:40:00",
-          "isCompleted": false
-        },
-        {
-          "id": 9,
-          "title": "Practice guitar",
-          "description": "Practice playing the guitar for an hour.",
-          "category": "Hobby",
-          "date_created": "2023-10-16T16:30:00",
-          "isCompleted": true
-        },
-        {
-          "id": 10,
-          "title": "Clean the garage",
-          "description": "Organize and clean the garage space.",
-          "category": "Home",
-          "date_created": "2023-10-17T10:00:00",
-          "isCompleted": false
-        }
-      ]      
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Art of Painting",
+      "content": "Painting is a beautiful form of artistic expression. It allows artists to convey their thoughts, emotions, and ideas through the use of colors, brushstrokes, and various techniques. Whether it's a breathtaking landscape, a portrait that captures the essence of a person, or an abstract masterpiece, painting has the power to inspire and captivate. In this blog, we'll delve into the history of painting, explore different painting styles, and celebrate the creativity of artists around the world.",
+      "author": "Alice Smith",
+      "description": "This blog explores the history and techniques of painting.",
+      "isPublished": true,
+      "category": "Art",
+      "publishDate": "2023-10-15T14:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "The World of Photography",
+      "content": "Photography allows us to capture moments in time, preserving memories that can be cherished for generations. It's a versatile medium that combines technical skills with artistic vision. Through the lens of a camera, we can freeze a smile, a sunset, or the beauty of everyday life. Join us in this blog as we explore the magic of photography, its history, and its impact on our lives. Discover the art of visual storytelling and the power of a single click.",
+      "author": "Bob Johnson",
+      "description": "Discover the magic of photography and its impact on our lives.",
+      "isPublished": false,
+      "category": "Art",
+      "publishDate": "2023-10-14T12:45:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "The Science of Space Exploration",
+      "content": "Space exploration has always fascinated humankind. It's a journey into the unknown, a quest for knowledge and discovery. From the first moon landing to the exploration of distant galaxies, space science has expanded our understanding of the cosmos. In this blog, we'll embark on a cosmic journey, learning about the history of space exploration, the technology that makes it possible, and the mysteries of the universe waiting to be unraveled.",
+      "author": "Charlie Brown",
+      "description": "Journey into the cosmos and uncover the secrets of the universe.",
+      "isPublished": true,
+      "category": "Science",
+      "publishDate": "2023-10-13T09:15:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "Healthy Eating Habits",
+      "content": "Maintaining a healthy diet is essential for overall well-being. It's a lifestyle choice that can positively impact your physical and mental health. In this blog, we'll delve into the importance of a balanced diet, exploring the benefits of consuming a variety of fruits, vegetables, whole grains, and lean proteins. Learn about portion control, mindful eating, and practical tips for adopting healthy eating habits. Your journey to vitality and long-term health starts here.",
+      "author": "David White",
+      "description": "Learn about the importance of a balanced diet and nutrition.",
+      "isPublished": true,
+      "category": "Health",
+      "publishDate": "2023-10-12T17:20:00.000Z"
+    },
+    {
+      "id": 5,
+      "title": "Traveling Adventures",
+      "content": "Adventure awaits those who seek to explore new horizons. Whether it's trekking through dense forests, savoring exotic cuisine, or encountering diverse cultures, traveling is a transformative experience. Join us on an exciting journey through this blog as we share thrilling adventures, packing tips, and unforgettable destinations. Embrace the unexpected and create memories that will last a lifetime.",
+      "author": "Emma Green",
+      "description": "Embark on thrilling adventures and discover the world's wonders.",
+      "isPublished": true,
+      "category": "Travel",
+      "publishDate": "2023-10-11T10:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "The World of Technology",
+      "content": "Technology is shaping our world in unprecedented ways. It's a force of innovation, connecting people and revolutionizing industries. In this blog, we'll explore the latest technological trends and innovations, from artificial intelligence to the Internet of Things. Stay updated with the ever-evolving digital landscape and discover how technology is changing our lives, businesses, and society.",
+      "author": "Frank Lee",
+      "description": "Explore the latest technological trends and innovations.",
+      "isPublished": true,
+      "category": "Technology",
+      "publishDate": "2023-10-10T13:40:00.000Z"
+    },
+    {
+      "id": 7,
+      "title": "The Power of Music",
+      "content": "Music has the ability to touch our hearts and souls. It transcends language and culture, evoking emotions and memories. Join us in this blog as we delve into the profound impact of music on our lives, exploring its therapeutic effects, its role in different cultures, and the magic of live performances. From classical symphonies to modern hits, we'll celebrate the universal language of music.",
+      "author": "Grace Davis",
+      "description": "Delve into the profound impact of music on our emotions and culture.",
+      "isPublished": true,
+      "category": "Art",
+      "publishDate": "2023-10-09T15:50:00.000Z"
+    },
+    {
+      "id": 8,
+      "title": "Exploring the Natural World",
+      "content": "Nature is a treasure trove of beauty and wonder. It offers a sanctuary for wildlife, a source of inspiration, and a reminder of the importance of conservation. In this blog, we'll discover the wonders of the natural world, from lush rainforests to majestic mountains. Learn about the fascinating creatures that inhabit our planet and the vital role of preserving biodiversity. Let's embark on a journey of exploration and appreciation.",
+      "author": "Henry Johnson",
+      "description": "Discover the wonders of the natural world and the importance of conservation.",
+      "isPublished": false,
+      "category": "Nature",
+      "publishDate": "2023-10-08T11:25:00.000Z"
+    },
+    {
+      "id": 9,
+      "title": "The World of Literature",
+      "content": "Books have the power to transport us to other worlds. They offer insights, adventures, and a window into the human experience. Join us in this blog as we explore the diverse world of literature, from classic novels to contemporary bestsellers. We'll discuss the magic of storytelling, the impact of great authors, and the joy of reading. Dive into the pages of great literature and discover new literary treasures.",
+      "author": "Isabella Martinez",
+      "description": "Dive into the world of literature and the magic of storytelling.",
+      "isPublished": false,
+      "category": "Literature",
+      "publishDate": "2023-10-08T11:25:00.000Z"
+    }
+  ]
 }

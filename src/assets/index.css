@@ -7,8 +7,9 @@
 }
 
 body {
-    background-color: #FFEEF4;
+    background-color: #f3f3f3;
 }
+/* {#94A684, #AEC3AE, #E4E4D0, #FFEEF4 } */
 
 .navbar {
     padding: 20px;
@@ -36,3 +37,59 @@ body {
 .navbar a:hover {
     color: #94A684;
 }
+
+.create {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* .create {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+} */
+
+.create label {
+    display: block;  
+    font-weight: bold; 
+}
+  
+.create h2 {
+    font-size: 20px;
+    color: #94A684;
+    margin-bottom: 30px;
+} 
+
+.create input, .create textarea, .create select, .date {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0; 
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;   
+}
+
+.create button {
+    background: #94A684;
+    color: #fff;
+    border: 0;
+    /* padding: 8px; */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.create .card {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    margin-top: 3%;
+}
+

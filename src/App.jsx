@@ -3,6 +3,7 @@ import './assets/index.css'
 import Navbar from './components/TopNav'
 import Home from './pages/Home'
 import AddBlog from './pages/AddBlog'
+import SchoolForm from './components/SchoolForm'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path = '/' element={<Home/>}/>
           <Route path = '/new' element={<AddBlog/>}/>
+          <Route path='/school' element={<SchoolForm/>}></Route>
         </Routes>
       </div>
     </div> 
