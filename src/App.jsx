@@ -4,6 +4,7 @@ import Navbar from './components/TopNav'
 import Home from './pages/Home'
 import AddBlog from './pages/AddBlog'
 import SchoolForm from './components/SchoolForm'
+import SchoolTable from './components/SchoolTable'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path = '/' element={<Home/>}/>
           <Route path = '/new' element={<AddBlog/>}/>
           <Route path='/school' element={<SchoolForm/>}></Route>
+          <Route path='/viewschools' element={<SchoolTable/>}></Route>
         </Routes>
       </div>
     </div> 

@@ -98,31 +98,36 @@ const NewBlog = () => {
         <TextArea rows={4} />
       </Form.Item>
 
-      <Form.Item
-        label="Author"
-        name="author"
-        rules={[
-          {
-            required: true,
-            message: "Please enter the blog author",
-          },
-        ]}
-      >
-        <Input />
-      </Form.Item>
-
-      <Form.Item
-        label="Category"
-        name="category"
-        rules={[
-          {
-            required: true,
-            message: "Please enter the blog category",
-          },
-        ]}
-      >
-        <Select placeholder="Category" options={categories} />
-      </Form.Item>
+      <Row gutter={[8,15]}>
+        <Col lg={{span:12,order:1}}>
+          <Form.Item
+            label="Author"
+            name="author"
+            rules={[
+              {
+                required: true,
+                message: "Please enter the blog author",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+        </Col>
+        <Col lg={{span:12,order:2}}>
+          <Form.Item
+            label="Category"
+            name="category"
+            rules={[
+              {
+                required: true,
+                message: "Please enter the blog category",
+              },
+            ]}
+          >
+            <Select placeholder="Category" options={categories} />
+          </Form.Item>
+        </Col>
+      </Row>
 
       <Form.Item
         label="Publish Date"
@@ -137,7 +142,7 @@ const NewBlog = () => {
         <DatePicker className="date" />
       </Form.Item>
 
-      {/* <Form.Item
+      <Form.Item
           label="Published"
           name="isPublished"
           rules={[
@@ -151,10 +156,10 @@ const NewBlog = () => {
             <Radio value="true"> Yes </Radio>
             <Radio value="false"> No </Radio>
           </Radio.Group>
-        </Form.Item> */}
+        </Form.Item>
 
       <Form.Item>
-        <Button htmlType="submit">Add Blog</Button>
+        <Button block htmlType="submit">Add Blog</Button>
       </Form.Item>
     </Form>
   );
